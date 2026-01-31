@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 90%;
+  max-width: 360px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+  z-index: 2;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #ff4d6d;
+}
+
+.sub {
+  margin-top: 10px;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 14px 22px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background: #eee;
+  position: relative;
+}
+
+#message {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  color: #ff4d6d;
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
